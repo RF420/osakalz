@@ -15,7 +15,8 @@ body {
     background-image: url(bg.jpg);
     background-size: cover;
     background-blend-mode: overlay;
-    background-position-y: -650px;
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
 
 .all {
@@ -94,4 +95,5 @@ body {
     .link-btn {
         padding: 12px 20px;
     }
+
 }

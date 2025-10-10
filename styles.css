@@ -14,8 +14,8 @@ body {
     text-align: center;
     background-image: url(bg.jpg);
     background-size: cover;
-    background-blend-mode: overlay;
     background-repeat: no-repeat;
+    background-blend-mode: overlay;
     background-position-y: center;
 }
 
@@ -61,8 +61,26 @@ body {
     align-items: center;
     justify-content: center;
     gap: 15px;
+
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* justify-content: space-between; */
+        gap: 25px;
+        text-align: left;
+        /* padding: 0 20px; */
+
+    }
+}
+#inst {
+    transform: translateX(2px);
 }
 
+#tg {
+    transform: translateX(-2px);
+}
 .link-btn {
     display: block;
     width: 80%;
@@ -95,5 +113,4 @@ body {
     .link-btn {
         padding: 12px 20px;
     }
-
 }
